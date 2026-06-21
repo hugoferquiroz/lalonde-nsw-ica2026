@@ -1,0 +1,17 @@
+# Datos crudos (descargar localmente)
+data/raw/
+data/processed/
+
+# Artefactos temporales
+*.tmp
+unpacked/
+*.lock.*
+
+# Python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# Notebooks (outputs limpios al commitear)
+.ipynb_checkpoints/

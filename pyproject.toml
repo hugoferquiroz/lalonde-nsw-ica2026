@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "lalonde-nsw"
+version = "0.1.0"
+description = "ICA2026 – Evaluación de impacto del programa NSW de LaLonde"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "pgmpy",
+    "econml",
+    "matplotlib",
+    "seaborn",
+    "jupyter",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
