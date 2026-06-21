@@ -12,6 +12,7 @@ __pycache__/
 *.pyc
 .env
 *.egg-info/
+.venv/
 
 # Notebooks (outputs limpios al commitear)
 .ipynb_checkpoints/

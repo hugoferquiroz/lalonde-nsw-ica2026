@@ -1,6 +1,6 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "lalonde-nsw"
@@ -15,6 +15,7 @@ dependencies = [
     "statsmodels",
     "pgmpy",
     "econml",
+    "pyreadstat",
     "matplotlib",
     "seaborn",
     "jupyter",
